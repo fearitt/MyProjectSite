@@ -1,0 +1,76 @@
+/* Исправление белого текста на белом фоне */
+body {
+    color: #333 !important;
+    background-color: #fff !important;
+}
+
+/* Шапка сайта */
+.header-area,
+.main-header-area,
+.main-menu,
+#navigation,
+#navigation li,
+#navigation a {
+    color: #333 !important;
+}
+
+/* Активные ссылки меню */
+#navigation li a.active {
+    color: #ff6b00 !important;
+}
+
+/* Подменю */
+.submenu {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+}
+
+.submenu li a {
+    color: #333 !important;
+}
+
+.submenu li a:hover {
+    color: #ff6b00 !important;
+    background-color: #f9f9f9 !important;
+}
+
+/* Текст в футере */
+.footer,
+.footer_title,
+.footer_widget,
+.footer_widget p,
+.footer_widget a {
+    color: #333 !important;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    color: #222 !important;
+}
+
+/* Параграфы */
+p {
+    color: #555 !important;
+}
+
+/* Ссылки */
+a {
+    color: #ff6b00 !important;
+}
+
+a:hover {
+    color: #e55a00 !important;
+}
+
+/* Бургеры в меню */
+.single_delicious .info h3 {
+    color: #222 !important;
+}
+
+.single_delicious .info p {
+    color: #666 !important;
+}
+
+.single_delicious .info span {
+    color: #ff6b00 !important;
+}
